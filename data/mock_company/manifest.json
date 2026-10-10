@@ -1,0 +1,41 @@
+﻿{
+  "schema_version": "draft-1",
+  "documents": [
+    {
+      "doc_id": "GEN-001",
+      "chunk_id": "GEN-001-CHUNK-001",
+      "path": "data/mock_company/documents/general/company_overview.md",
+      "source": "mock_company/general/company_overview.md",
+      "timestamp": "2026-10-10T00:00:00Z",
+      "aclRoles": ["employee", "admin"],
+      "classification": "internal"
+    },
+    {
+      "doc_id": "ENG-001",
+      "chunk_id": "ENG-001-CHUNK-001",
+      "path": "data/mock_company/documents/engineering/incident_response.md",
+      "source": "mock_company/engineering/incident_response.md",
+      "timestamp": "2026-10-10T00:00:00Z",
+      "aclRoles": ["engineer", "security", "admin"],
+      "classification": "restricted"
+    },
+    {
+      "doc_id": "HR-001",
+      "chunk_id": "HR-001-CHUNK-001",
+      "path": "data/mock_company/documents/hr/leave_policy.md",
+      "source": "mock_company/hr/leave_policy.md",
+      "timestamp": "2026-10-10T00:00:00Z",
+      "aclRoles": ["employee", "hr", "manager", "admin"],
+      "classification": "internal"
+    },
+    {
+      "doc_id": "FIN-001",
+      "chunk_id": "FIN-001-CHUNK-001",
+      "path": "data/mock_company/documents/finance/department_budget_2026.md",
+      "source": "mock_company/finance/department_budget_2026.md",
+      "timestamp": "2026-10-10T00:00:00Z",
+      "aclRoles": ["finance", "admin"],
+      "classification": "confidential"
+    }
+  ]
+}
